@@ -1,7 +1,6 @@
 <?php
 include_once 'blocks/cookie.php'; //подключаем cookie
 ?>
-
 <?php 
 include_once 'blocks/head.php'; //подключаем голову со стилями и title
 ?>
@@ -34,7 +33,7 @@ include_once 'blocks/head.php'; //подключаем голову со сти�
 		<!-- Sidebar боковая панель-->
 			<div id="sidebar">
 			<!-- Logo -->
-					<h1 id="logo"><a href="blocks/authorization.php">Вход 0</a></h1>
+					<h1 id="logo"><a href="blocks/authorization.php">Вход</a></h1>
 				<?php
 				include 'blocks/search.php';
 				?>							
